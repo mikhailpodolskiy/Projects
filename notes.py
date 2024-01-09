@@ -37,7 +37,7 @@ def click():
     window = Tk()
     window.title("Окно добавления заметок")
     window.geometry("250x200")
-    root.resizable(0, 0)
+    window.resizable(0, 0)
     window.wm_attributes("-topmost", 1)
 
     note_label = Label(window, text = "Введите название заметки")
